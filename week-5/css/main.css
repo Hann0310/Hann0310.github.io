@@ -2,4 +2,11 @@ body {
     color: blue;
 }
 
-/* This is a CSS comment */
+p {
+    color: green;
+}
+
+/* Target child elements */
+section, h1 {
+    color: darkred;
+}
