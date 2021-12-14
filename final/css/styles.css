@@ -3,14 +3,10 @@
   #main-banner {
     position: relative;
     width: 400px;
+    bottom: 400px;
+    left: 192px;
   }
 
-  .navb {
-    background-color: #222;
-    width: 400px;
-    height: 350px;
-    position: relative;
-  }
 
 #logo {
   position: absolute;
@@ -84,6 +80,7 @@
   box-sizing: border-box;
   margin: 10px;
 }
+
 /* ^^^ Search Bar and Magnifying Glass ^^^ */
 
 /* Welcome to Three Stars Media */
