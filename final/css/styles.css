@@ -3,10 +3,7 @@
   #main-banner {
     position: relative;
     width: 400px;
-    bottom: 400px;
-    left: 192px;
   }
-
 
 #logo {
   position: absolute;
@@ -26,6 +23,14 @@
     right: 20px;
     position: absolute;
   }
+
+  .navb {
+    background-color: #222;
+    width: 400px;
+    height: 350px;
+    position: relative;
+  }
+  
 
 /* Navigation Links */
 .home a {
@@ -73,12 +78,21 @@
   position: relative;
   bottom: 350px;
   left: 12px;
-  width: 79%;
+  width: 64%;
   padding: 4px;
   border: 1px solid #ccc;
   border-radius: 0px;
   box-sizing: border-box;
   margin: 10px;
+}
+
+.searchbutton {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  border: 1px solid #c78c06;
+  right: 160px;
+  top: 322px;
 }
 
 /* ^^^ Search Bar and Magnifying Glass ^^^ */
@@ -606,7 +620,8 @@ h1 {
   right: 235px;
   width: 400px;
   height: 250px;
-  right: 15px;
+  right: 170px;
+
 }
 /* Message, Email, Name table */
 .name {
@@ -759,6 +774,10 @@ iframe {
 
 @media screen and (min-width: 760px) {
 
+.navb {
+  display: none;
+}
+
 /* Navigation Bar */
 .menu {
   position: absolute;
@@ -770,10 +789,10 @@ iframe {
 }
 
 /* magnifying glass and Search Bar*/
-#magnifying-glass {
+.searchbutton {
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 28px;
   border: 1px solid #c78c06;
   left: 1190px;
   top: 60px;
@@ -800,6 +819,7 @@ iframe {
   margin-right: auto;
   width: 1400px;
   height: 1000px;
+  left: 192px;
 }
 
 #logo {
