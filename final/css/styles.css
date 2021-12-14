@@ -104,6 +104,7 @@
   width: 400px;
   height: 250px;
   position: absolute;
+  left: 9px;
   right: 40px;
   top: 375px;
 }
@@ -906,7 +907,7 @@ h1 {
   color: white;
   text-align: center;
   font-size: 67px;
-  left: 535px;
+  left: 490px;
 }
 
 .hp {
@@ -915,7 +916,7 @@ h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  left: 505px;
+  left: 490px;
   text-align: left;
   margin: 10px;
   line-height: 30px;
@@ -924,7 +925,7 @@ h1 {
 .button1 {
   position: absolute;
   top: 560px;
-  left: 530px;
+  left: 490px;
   background-color: #c78c06;
   border: none;
   padding: 30px 50px;
